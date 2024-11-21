@@ -67,6 +67,7 @@ class Game {
                 }
                 
                 this.handleCellPlayed(cell, cellIdx)
+                this.resultValidation()
             })
         })
     }
